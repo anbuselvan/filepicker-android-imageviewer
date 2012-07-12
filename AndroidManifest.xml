@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.imageviewer"
+    package="io.filepicker.example"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -29,7 +29,7 @@
         </activity>
         <activity
             android:name="io.filepicker.AuthActivity"
-            android:label="@string/title_activity_auth" >
+            android:label="@string/title_activity_file_picker_auth" >
         </activity>
     </application>
 

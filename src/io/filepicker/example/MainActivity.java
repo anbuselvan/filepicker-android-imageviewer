@@ -1,4 +1,4 @@
-package com.example.imageviewer;
+package io.filepicker.example;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -12,7 +12,6 @@ import android.provider.MediaStore;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -37,12 +36,6 @@ public class MainActivity extends Activity {
 						FilePickerAPI.REQUEST_CODE_GETFILE);
 			}
 		});
-	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		getMenuInflater().inflate(R.menu.activity_main, menu);
-		return true;
 	}
 
 	@Override
